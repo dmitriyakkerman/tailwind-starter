@@ -1,6 +1,6 @@
 # tailwind-starter
 
-Simple ![tailwindcss](https://tailwindcss.com/) starter kit. 
+Simple [tailwindcss](https://tailwindcss.com/) starter kit. 
 
 Read more in documentation.
 
