@@ -8,9 +8,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "tailwind build": "tailwindcss build ./src/css/main.css -o ./dist/css/styles.css",
-    "tailwind start": "tailwindcss build ./src/css/main.css -o ./dist/css/styles.css --watch",
-    "tailwind generate": "NODE_ENV=production tailwindcss -i ./src/css/main.css -o ./dist/css/styles.css --minify"
+    "build": "tailwindcss build ./src/css/main.css -o ./dist/css/styles.css",
+    "start": "tailwindcss build ./src/css/main.css -o ./dist/css/styles.css --watch",
+    "generate": "NODE_ENV=production tailwindcss -i ./src/css/main.css -o ./dist/css/styles.css --minify"
   },
   "repository": {
     "type": "git",
