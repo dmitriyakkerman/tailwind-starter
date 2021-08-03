@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "Simple tailwindcss starter-kit",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tailwind build": "tailwindcss build ./src/css/main.css -o ./dist/css/styles.css",
+    "tailwind start": "tailwindcss build ./src/css/main.css -o ./dist/css/styles.css --watch",
+    "tailwind generate": "NODE_ENV=production tailwindcss -i ./src/css/main.css -o ./dist/css/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriyakkerman/tailwind-starter.git"
+  },
+  "keywords": [
+    "tailwind",
+    "css"
+  ],
+  "author": "Dmitriy Akkerman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitriyakkerman/tailwind-starter/issues"
+  },
+  "homepage": "https://github.com/dmitriyakkerman/tailwind-starter#readme"
+}
