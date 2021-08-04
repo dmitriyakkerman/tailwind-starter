@@ -21,7 +21,7 @@ npm install
 
 3.2. Customize your layout using `theme` and `variants` options.
 
-4.Create and configure entry css file importing those Tailwind.css entities you need in development:
+4.Configure entry `main.css` file in `src` folder importing those Tailwind.css entities you need in development:
 
 ```css
 @tailwind base;
