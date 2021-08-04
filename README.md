@@ -45,7 +45,7 @@ Production mode minified build
 npm run generate
 ```
 
-This will create `styles.css` file in dist folder.
+This will create `styles.css` file in `dist` folder.
 
 7.Connect `styles.css` to your layout.
 
