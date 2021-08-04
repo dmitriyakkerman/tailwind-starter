@@ -29,6 +29,7 @@ npm install
 @tailwind utilities;
 ```
 5.Create your markup file using Tailwind.css classes.
+
 6.Build your bundle using one of these commands:
 
 Development mode build
