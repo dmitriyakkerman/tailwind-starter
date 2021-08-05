@@ -6,31 +6,31 @@ Read more in documentation.
 
 **Usage**
 
-1.Clone repository
+1. Clone repository
 
 ```js
 https://github.com/dmitriyakkerman/tailwind-starter.git
 ```
-2.Install dependencies
+2. Install dependencies
 ```js
 npm install
 ```
-3.Configure `tailwind.config.js` file.
+  - Configure `tailwind.config.js` file.
 
-3.1. Specify your markup files, which use Tailwind.css in `purge` option.
+  - Specify your markup files, which use Tailwind.css in `purge` option.
 
-3.2. Customize your layout using `theme` and `variants` options.
+  - Customize your layout using `theme` and `variants` options.
 
-4.Configure entry `main.css` file in `src` folder importing those Tailwind.css entities you need in development:
+4. Configure entry `main.css` file in `src` folder importing those Tailwind.css entities you need in development:
 
 ```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
-5.Create your markup file using Tailwind.css classes.
+5. Create your markup file using Tailwind.css classes.
 
-6.Build your bundle using one of these commands:
+6. Build your bundle using one of these commands:
 
 Development mode build
 ```
@@ -47,6 +47,6 @@ npm run generate
 
 This will create `styles.css` file in `dist` folder.
 
-7.Connect `styles.css` to your layout.
+7. Connect `styles.css` to your layout.
 
-8.Enjoy!
+8. Enjoy!
