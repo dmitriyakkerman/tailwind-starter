@@ -15,7 +15,7 @@ https://github.com/dmitriyakkerman/tailwind-starter.git
 ```js
 npm install
 ```
-  - Configure `tailwind.config.js` file.
+3. Configure `tailwind.config.js` file.
 
   - Specify your markup files, which use Tailwind.css in `purge` option.
 
