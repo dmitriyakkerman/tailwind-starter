@@ -1,8 +1,8 @@
 # tailwind-starter
 
-Simple [tailwindcss](https://tailwindcss.com/) starter kit. 
+✨ Simple [tailwindcss](https://tailwindcss.com/) starter kit. ✨
 
-Read more in documentation.
+Read more in documentation ❗
 
 **Usage**
 
@@ -49,4 +49,4 @@ This will create `styles.css` file in `dist` folder.
 
 7. Connect `styles.css` to your layout.
 
-8. Enjoy!
+8. Enjoy! 🎉
